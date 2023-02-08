@@ -2,6 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
+import MainContainer from "@/components/MainContainer";
+import MainContent from "@/components/MainContent";
+import Title from "@/components/Title";
+import Logo from "@/components/Logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,7 +37,12 @@ export default function Home() {
           content="Vidit Khandelwal's official landing page."
         />
       </Head>
-      
+      <MainContainer>
+        <MainContent>
+          <Logo/>
+          <Title color="lime" spaced="false">VIDIT KHANDELWAL</Title>
+        </MainContent>
+      </MainContainer>
     </>
   );
 }
