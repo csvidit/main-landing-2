@@ -5,9 +5,9 @@ const Logo = () => {
   return (
     <React.Fragment>
       <motion.svg
-        className="main-v v-anim"
-        width="20%"
-        height="20%"
+        className="main-v v-anim "
+        width="200"
+        height="200"
         viewBox="0 0 1835 2315"
         version="1.1"
         xmlns="http://www.w3.org/2000/svg"

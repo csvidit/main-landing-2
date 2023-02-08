@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-let divStyles = "flex flex-row text-6xl text-center";
+let divStyles = "flex flex-row text-5xl lg:text-6xl text-center";
 
 const Title = (props: {color: string; children: any }) => {
   const color = props.color;

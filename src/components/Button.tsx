@@ -40,7 +40,7 @@ const MainLink = (props: {href: string, animate: string, children: any}) => {
   }
 
   return (
-    <motion.div className={"flex flex-row text-4xl w-72"} animate="animate" whileHover="hover">
+    <motion.div className={"flex flex-row text-3xl lg:text-4xl w-72"} animate="animate" whileHover="hover">
       <motion.div
         initial={false}
         variants={linkLabelVariants}
