@@ -6,6 +6,11 @@ import MainContainer from "@/components/MainContainer";
 import MainContent from "@/components/MainContent";
 import Title from "@/components/Title";
 import Logo from "@/components/Logo";
+import Subtitle from "@/components/Subtitle";
+import Left from "@/components/Left";
+import Right from "@/components/Right";
+import { motion } from "framer-motion";
+import Button from "@/components/Button";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,8 +44,31 @@ export default function Home() {
       </Head>
       <MainContainer>
         <MainContent>
-          <Logo/>
-          <Title color="lime" spaced="false">VIDIT KHANDELWAL</Title>
+          <Left>
+            <Logo />
+            <motion.div
+            className="flex flex-col space-y-1 items-center lg:items-start"
+              animate={{
+                opacity: [0, 1],
+                translateY: [80, 0],
+                transition: {
+                  delay: 0.8,
+                  duration: 0.8,
+                  type: "spring",
+                },
+              }}
+            >
+              <Subtitle>THE WORLD OF</Subtitle>
+              <Title color="lime">VIDIT KHANDELWAL</Title>
+            </motion.div>
+          </Left>
+          <Right>
+            <Button href="https://github.com/csvidit" animate="false">GitHub</Button>
+            <Button href="https://linkedin.com/viditkhandelwal" animate="false">LinkedIn</Button>
+            <Button href="https://bio.viditkhandelwal.com" animate="false">Links</Button>
+            <Button href="https://cs.viditkhandelwal.com" animate="false">CS Portfolio</Button>
+            <Button href="https://acad.viditkhandelwal.com" animate="false">Papers</Button>
+          </Right>
         </MainContent>
       </MainContainer>
     </>
