@@ -1,6 +1,6 @@
 import React from "react"
 
-const divStyles = "flex flex-row text-2xl lg:text-3xl text-lime-400 uppercase font-light text-center";
+const divStyles = "flex flex-row text-xl lg:text-3xl text-lime-400 uppercase font-light text-center";
 
 const Subtitle = (props: {children: any}) =>
 {
