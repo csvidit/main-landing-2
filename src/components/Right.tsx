@@ -8,7 +8,7 @@ const Right = (props: { children: any }) => {
         opacity: [0, 1],
         translateX: [80, 0],
         transition: {
-          delay: 1.4,
+          delay: 1.1,
           duration: 0.8,
           type: "spring",
         },
