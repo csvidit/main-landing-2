@@ -13,6 +13,8 @@ const Right = (props: { children: any }) => {
           type: "spring",
         },
       }}
+      whileHover={{
+      }}
       className="flex flex-col h-full lg:h-screen w-screen lg:w-1/2 justify-evenly items-center"
     >
       {props.children}

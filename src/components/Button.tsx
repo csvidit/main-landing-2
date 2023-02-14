@@ -22,7 +22,7 @@ const MainLink = (props: { href: string; animate: string; children: any }) => {
       rotate: 0
     },
     hover: {
-      rotate: [0, 360],
+      rotate: [0, -45],
       transition: {
         type: "tween",
         ease: "easeInOut"
