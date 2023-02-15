@@ -21,7 +21,7 @@ export default function Home() {
         <title>Vidit Khandelwal</title>
         <meta
           name="description"
-          content="Vidit Khandelwal's official landing page"
+          content="The main landing page of Vidit Khandelwal, a computer science major and economics minor from DePauw University. He is a full-stack software engineer, and writer of fiction and non-fiction."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Vidit Khandelwal" />
