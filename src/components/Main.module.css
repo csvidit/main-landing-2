@@ -1,29 +1,46 @@
 @font-face {
-    font-family: "clash";
-    src: url("../../public/font/clash.woff2") format("woff2"),
-      url("../../public/font/clash.woff") format("woff"),
-      url("../../public/font/clash.ttf") format("truetype");
-    font-weight: 200 700;
-    font-display: swap;
-    font-style: normal;
-  }
+  font-family: "clash";
+  src: url("../../public/font/clash.woff2") format("woff2"),
+    url("../../public/font/clash.woff") format("woff"),
+    url("../../public/font/clash.ttf") format("truetype");
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
 
-  .clash{
-    font-family: 'clash', sans-serif;
-  }
-  
-  .clash_btn {
-    font-family: 'clash', sans-serif;
-    font-weight: 500;
-  }
+.clash {
+  font-family: "clash", sans-serif;
+}
 
-  .clash_title{
-    font-family: 'clash', sans-serif;
-    font-weight: 300;
-  }
+.clash_btn {
+  font-family: "clash", sans-serif;
+  font-weight: 500;
+}
 
-  .clash_subtitle{
-    font-family: 'clash', sans-serif;
-    font-weight: 500;
+.clash_title {
+  font-family: "clash", sans-serif;
+  font-weight: 300;
+}
+
+.clash_subtitle {
+  font-family: "clash", sans-serif;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+  .main_container {
+    font-family: "clash", sans-serif;
+    background-color: black;
   }
-  
+}
+
+@media screen and (min-width: 1024px) {
+  .main_container {
+    font-family: "clash", sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("/background.png");
+  background-repeat: no-repeat;
+  }
+}
