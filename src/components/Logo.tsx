@@ -38,7 +38,7 @@ const Logo = () => {
                 animate={{translateX: [40, 0], translateY: [-40, 0], transition: {ease: "easeInOut", delay: 0.4, duration: 0.2}}}
               ></motion.rect>
             </clipPath>
-            <motion.g clip-path="url(#_clip1)">
+            <motion.g clipPath="url(#_clip1)">
               <motion.path
                 d="M524.65,1018.37L472.25,874.371L481.25,874.371L529.05,1006.17L577.05,874.371L586.05,874.371L533.65,1018.37L527.68,1002.39L524.65,1018.37Z"
                 style={{fill: "#a3e635", fillRule: "nonzero"}}
@@ -57,7 +57,7 @@ const Logo = () => {
                 animate={{translateX: [-40, 0], translateY: [40, 0], transition: {ease: "easeInOut", delay: 0.6, duration: 0.2}}}
               ></motion.rect>
             </clipPath>
-            <motion.g clip-path="url(#_clip2)">
+            <motion.g clipPath="url(#_clip2)">
               <motion.path
                 d="M524.65,1018.37L472.25,874.371L481.25,874.371L529.05,1006.17L577.05,874.371L586.05,874.371L533.65,1018.37L524.65,1018.37Z"
                 style={{fill: "#a3e635", fillRule: "nonzero"}}

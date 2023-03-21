@@ -47,7 +47,7 @@ export default function Home() {
           <Left>
             <Logo />
             <motion.div
-            className="flex flex-col space-y-1 items-center lg:items-start"
+              className="flex flex-col space-y-1 items-center lg:items-start"
               animate={{
                 opacity: [0, 1],
                 translateY: [80, 0],
@@ -63,12 +63,25 @@ export default function Home() {
             </motion.div>
           </Left>
           <Right>
-            <Button href="https://github.com/csvidit" animate="false">GitHub</Button>
-            <Button href="https://linkedin.com/viditkhandelwal" animate="false">LinkedIn</Button>
-            <Button href="https://bio.viditkhandelwal.com" animate="false">Links</Button>
-            <Button href="https://cs.viditkhandelwal.com" animate="false">CS Portfolio</Button>
-            <Button href="https://acad.viditkhandelwal.com" animate="false">Papers</Button>
+            <Button href="https://github.com/csvidit" animate="false">
+              GitHub
+            </Button>
+            <Button href="https://linkedin.com/viditkhandelwal" animate="false">
+              LinkedIn
+            </Button>
+            <Button href="https://bio.viditkhandelwal.com" animate="false">
+              Links
+            </Button>
+            <Button href="https://cs.viditkhandelwal.com" animate="false">
+              CS Portfolio
+            </Button>
+            <Button href="https://acad.viditkhandelwal.com" animate="false">
+              Papers
+            </Button>
           </Right>
+          <div className="absolute bottom-3 lg:bottom-6 lg:mt-0 lg:left-5 items-center flex flex-row font-sans text-xs text-slate-500 lg:text-cyan-400 border border-slate-500 lg:border-cyan-500 font-light text-center p-2 rounded-full">
+            <p>Coming Soon: A comprehensive portfolio made in NEXT.JS</p>
+          </div>
         </MainContent>
       </MainContainer>
     </>

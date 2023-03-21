@@ -19,14 +19,14 @@ const MainLink = (props: { href: string; animate: string; children: any }) => {
 
   const linkArrowVariants = {
     animate: {
-      rotate: 0
+      rotate: 0,
     },
     hover: {
       rotate: [0, -45],
       transition: {
         type: "tween",
-        ease: "easeInOut"
-      }
+        ease: "easeInOut",
+      },
     },
   };
 
@@ -43,9 +43,16 @@ const MainLink = (props: { href: string; animate: string; children: any }) => {
   } else {
     linkUnderlineVariants = {
       animate: {
-        width: 288,
+        
       },
-      hover: { width: 288, borderBottomColor: "#0ea5e9" },
+      hover: {
+        width: 288,
+        borderBottomColor: "#0ea5e9",
+        transition: {
+          type: "tween",
+          ease: "easeInOut",
+        },
+      },
     };
   }
 
@@ -80,7 +87,7 @@ const MainLink = (props: { href: string; animate: string; children: any }) => {
           </motion.div>
         </Link>
         <motion.div
-          className="border-b border-slate-500 self-center w-72"
+          className="border-b border-slate-500 self-start w-72"
           variants={linkUnderlineVariants}
         ></motion.div>
       </motion.div>
